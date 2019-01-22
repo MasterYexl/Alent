@@ -125,7 +125,7 @@ class Novel:
                     for c in tmpcount:
                         count = count + c + "\n\n"
         # 整理数据
-        wrcode = 18
+
         # 去除章节引导
         count = re.sub(r"[上下]一.*\n*.*\n*.*目*录*.*\n*.*\n*[下上]一.*\n*.*\n*书*签*.*", "", count)
         # 去除广告语句
